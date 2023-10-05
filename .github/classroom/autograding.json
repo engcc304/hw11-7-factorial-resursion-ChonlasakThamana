@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW11/hw11-7-factorial-recursion.cpp",
+      "run": "./a.out",
+      "input": "5",
+      "output": "5! = 5 x 4 x 3 x 2 x 1\r\n5! = 120",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 2",
+      "setup": "g++ -o a.out ./Homework/HW11/hw11-7-factorial-recursion.cpp",
+      "run": "./a.out",
+      "input": "8",
+      "output": "8! = 8 x 7 x 6 x 5 x 4 x 3 x 2 x 1\r\n8! = 40320",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
